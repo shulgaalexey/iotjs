@@ -46,6 +46,14 @@ $ sudo apt-get install pv
   $ wget https://github.com/OpenELEC/misc-firmware/raw/master/firmware/brcm/BCM43430A1.hcd
 ```
 
+
+If downloading of the first link doesn't work, try this one:
+
+```
+$ wget https://git.tizen.org/cgit/platform/kernel/linux-rpi3/plain/scripts/sd_fusing_rpi3.sh?h=submit/tizen/20170725.223437 --output-document=sd_fusing_rpi3.sh
+```
+
+
 #### Downloading TizenIoT Core Image for RPi3
 
 Kernel & Module Image
